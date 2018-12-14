@@ -1,0 +1,26 @@
+.icon-arrow-left {
+    padding: 10px;
+    width: 36px;
+    background: black;
+    margin-bottom: 1px;
+    cursor: pointer;
+    .fa-arrow-left {
+        color: #fff;
+    }
+}
+.show-details {
+    display: flex;
+    .user-image {
+        transform: translate(-200px, 90px);
+        img {
+            display: block;
+            max-width: 100%;
+            height: 200px;
+            z-index: 9999999;
+        }
+    }
+    .user-info {
+        margin-left: 20px;
+        width: 50%;
+    }
+}

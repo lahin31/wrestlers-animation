@@ -1,0 +1,14 @@
+.navbar {
+    background: #333;
+    .container {
+        display: flex;
+        justify-content: center;
+        border-bottom: 1px solid #F2F2F2;
+        padding: 2em 0;
+        list-style-type: none;
+        h2 {
+            color: #F2F2F2;
+            padding: 0 10px !important;
+        }
+    }
+}

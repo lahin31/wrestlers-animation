@@ -1,0 +1,19 @@
+.user-wrapper {
+    width: 100%;
+    margin: 0 auto;
+    .user-card {
+        .user-img {
+            img {
+                width: 100%;
+                display: block;
+                border-radius: 50%;
+                height: 150px;
+                object-fit: contain;
+                cursor: pointer;
+            }
+        }
+    }
+    h3 {
+        text-align: center;
+    }
+}
